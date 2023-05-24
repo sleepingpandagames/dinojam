@@ -1,0 +1,144 @@
+@font-face {
+    font-family: 'Fredoka One';
+    font-style: normal;
+    font-weight: 200;
+    src: local('Fredoka One'), url('../fonts/fredokaone/FredokaOne-Regular.woff') format('woff');
+}
+
+.fredokaOne{
+    font-family: 'Fredoka One';
+    font-weight: 200;
+}
+
+h2{
+    font-size: 1.2rem;
+}
+
+iframe{
+    max-width: 800px;
+    width: 100%;
+}
+
+.btn svg{
+    display: inline-block;
+}
+
+.btn-itchio{
+    background-color: #fa5c5c;
+    border: 1px solid rgba(0,0,0,0.1);
+    color: #ffffff;
+    
+    text-shadow: 0 1px 0px #e54747;
+}
+
+.btn-itchio:hover,
+.btn-itchio:focus,
+.btn-itchio:active,
+.btn-itchio:visited{
+    background-color: #e54747 !important;
+    border: 1px solid rgba(0,0,0,0.1) !important;
+    color: #ffffff !important;
+
+    text-shadow: 0 1px 0px #e54747;
+}
+
+.dnj-hero{
+    background-color: #f2f2f2;
+    padding: 2rem 0;
+}
+
+.dnj-hero .lead{
+    line-height: 1.2;
+}
+
+.dnj-hero p{
+    line-height: 1.4;
+}
+
+.dnj-logo{
+    font-family: 'Fredoka One';
+    text-transform: uppercase;
+}
+
+.dnj-countdown{
+    display: flex;
+    justify-content: center;
+}
+
+.dnj-countdown-card{
+    font-family: 'Fredoka One';
+    font-size: 1rem;
+
+    margin: 0 0.5rem;
+}
+
+.dnj-countdown-num{
+    background-color: white;
+    border-radius: 4px;
+    box-shadow: 0 1px 1px 1px #E0E0E0;
+
+    display: block;
+
+    font-size: 1.5rem;
+    padding: 0.5rem 0.75rem 0.25rem;
+}
+
+.dnj-countdown-label{
+    color: #828282;
+
+    display: block;
+}
+
+.dnj-footer{
+    /* background-color: #f2f2f2; */
+
+    color: #828282;
+    font-size: 0.9rem;
+}
+
+.dnj-footer a{
+    color:#828282;
+}
+
+.link{
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.link:hover{
+    text-decoration: underline;
+}
+
+.link:active,
+.link:focus,
+.link:visited{
+    text-decoration: dashed;
+}
+
+.link-discord{
+    color: #516CCA;
+}
+
+.link-itchio{
+    color: #fa5c5c;
+}
+
+.link-mastodon{
+    color: #595aff;
+}
+
+.link-twitter{
+    color: #2D9CDB;
+}
+
+.list-group{
+    max-width: 800px;
+    margin: 0 auto;
+
+    text-align: left;
+}
+
+.num{
+    color: #828282;
+    font-weight: 600;
+}
